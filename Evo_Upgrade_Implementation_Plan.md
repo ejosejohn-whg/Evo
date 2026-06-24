@@ -58,13 +58,62 @@ We have three proposed ways to execute this implementation. Please review and pr
 
 ### Option 1: Incremental Rollout
 *A step-by-step approach moving sites to production incrementally.*
-
-1. **A:** Ensure we have **UK - Low** and **MGA - Low** ready and available from the Evo side.
-2. **B:** Test the games on **"Main Stage Bingo"**.
-3. **C:** Move sites one by one to production, making necessary changes on games and supplier configuration.
-4. **D:** Ensure we have **MGA - High** ready and available from the Evo side.
-5. **E:** Test and verify that Env 1 (UK - High) is working properly with the specific values for a given site.
-6. **F:** Continue moving sites one by one to production, applying changes to games and supplier configurations.
+**A:** Ensure we have **UK - Low** and **MGA - Low** ready and available from the Evo side.
+  1: Get Evo environment for Stage: **Evo Provided.**
+  2: Configured the EVO3 and EVO04 Setup on Stage: **Juan Configured.**
+  3: Evo to test the Setup and Approve the Integragaion. **Evoluton Passed the tests.**
+  4: Evo to configure the Production Setup. **Awaiting on Evo**
+  
+**B:** Test the games on **"Main Stage Bingo"** on UK Low and MGA Low
+  1: We need to define the Stage testing Stratagy. **To be defined by product and Operations**
+  2: Configure the Game on Stage. **To be defined by product and Operations**
+  3: Test the Games on Stage. **To be defined by product and Operations**
+  
+4. **C:** Move sites one by one to production, making necessary changes on games and supplier configuration.
+  1: Prepare the script for all the games for "main stage Bingo" as Live games we will not have all games on stage.
+  2: Execute the script on Stage and Live. **Sprit stratagy to be defined by Game Service and Operations**
+  3: Test the games on Live. **Testing Stratagy to be defined by QA and Operations**
+  4: Plan and execute monitoring Stratagy on Live with DD. **Operations need to define, John can help setting it up**
+  5: Once "Main Stage Bingo" is live and stable with the Low Setup for UK and MGA. Plan for all the other sites with Low setups one by one or as a group
+  6: Execute the script on Stage and Live. **Sprit stratagy to be defined by Game Service and Operations**
+  7: Test the games on Live. **Testing Stratagy to be defined by QA and Operations**
+  8: Plan and execute monitoring Stratagy on Live with DD. **Operations need to define, John can help setting it up**
+  **General Notes:**
+    1: With this we will have all the Low sites of Completed.
+    2: We will have game levels / Stage starting from new.
+    3: We need to map the Jackpot respectively. (As the are using form Env01 whcih is existing there should not be any issue, if not changed)
+    4: If we have unfinised games they have to be made cancelled or settled.
+    5: All started and not completed free spins will not work as this will have gone to old Env and skin which will notbe in use after we move over.
+    6: We can move to have Game config to Low table for all the sites and remove the script site specific script. Or we can wait for High setups to finish and have singe game entry for all the UK and MGA sites.
+    
+5. **D:** Ensure we have **MGA - High** ready and available from the Evo side.
+  1: Get Evo environment for Stage: **Evo Provided.**
+  2: Configured the EVO2 Setup on Stage: **Juan Configured.**
+  3: Evo to test the Setup and Approve the Integragaion. **Evoluton Passed the tests.**
+  4: Evo to configure the Production Setup. **Awaiting on Evo**
+   
+7. **E:** Test and verify that Env 1 (UK - High & MGA High) Main Stage Bingo.
+  1: We need to define the Stage testing Stratagy. **To be defined by product and Operations**
+  2: Configure the Game on Stage. **To be defined by product and Operations**
+  3: Test the Games on Stage. **To be defined by product and Operations**
+   
+9. **F:** Continue moving sites one by one to production, applying changes to games and supplier configurations.
+  1: Now that we have all sites live on the Low Site reconfigure "Main Stage Bingo" to High Stakes of UK and MGA
+  2: Execute the script on Stage and Live. **Sprit stratagy to be defined by Game Service and Operations**
+  3: Test the games on Live. **Testing Stratagy to be defined by QA and Operations**
+  4: Plan and execute monitoring Stratagy on Live with DD. **Operations need to define, John can help setting it up**
+  5: Once "Main Stage Bingo" is live and stable with the Low Setup for UK and MGA. Plan for all the other sites with Low setups one by one or as a group
+  6: Execute the script on Stage and Live. **Sprit stratagy to be defined by Game Service and Operations**
+  7: Test the games on Live. **Testing Stratagy to be defined by QA and Operations**
+  8: Plan and execute monitoring Stratagy on Live with DD. **Operations need to define, John can help setting it up**
+   **General Notes:**
+    1: With this we will have all the Low sites of Completed.
+    2: We will have game levels / Stage starting from new.
+    3: We need to map the Jackpot respectively. (As the are using form Env01 whcih is existing there should not be any issue, if not changed)
+    4: If we have unfinised games they have to be made cancelled or settled.
+    5: All started and not completed free spins will not work as this will have gone to old Env and skin which will notbe in use after we move over.
+    6: We now have All the sites on were we need, we can clean up the game config on UK and MGA have one game code per game for entire 4 combinations we have.
+---
 
 ### Option 2: Big Bang Rollout
 *Prepare all environments and execute the configuration move on a single agreed-upon date.*
@@ -74,30 +123,21 @@ We have three proposed ways to execute this implementation. Please review and pr
 3. **C:** Ensure we have **UK - High** and **MGA - High** ready and available from the Evo side.
 4. **D:** Test the games again on **"Main Stage Bingo"**.
 5. **E:** Agree on a rollout date and move all configurations in a single day rather than doing it one by one.
-
-### Option 3: Risk-Mitigated Big Bang (Requires Evo Approval)
-*Similar to Option 2, but creates new skins to reduce risk on the currently used Env 1 (UK - High).*
-
-1. **A:** Ensure we have **UK - Low** and **MGA - Low** ready and available from the Evo side.
-2. **B:** Test the games on **"Main Stage Bingo"**.
-3. **C:** Ensure we have **MGA - High** ready and available from the Evo side.
-4. **D:** Test the games on **"Main Stage Bingo"**.
-5. **E:** Get **new Skins** for Env 1 for **UK - High** and configure the games according to those values.
-6. **F:** Test the games thoroughly in **"Main Stage Bingo"**.
-7. **G:** Agree on a rollout date and move all configurations in a single day.
-
+**General Notes:**
+    1: With this we will have all the Low sites of Completed.
+    2: We will have game levels / Stage starting from new.
+    3: We need to map the Jackpot respectively. (As the are using form Env01 whcih is existing there should not be any issue, if not changed)
+    4: If we have unfinised games they have to be made cancelled or settled.
+    5: All started and not completed free spins will not work as this will have gone to old Env and skin which will notbe in use after we move over.
+    6: We now have All the sites on were we need, we can clean up the game config on UK and MGA have one game code per game for entire 4 combinations we have.
 ---
 
 ## 📝 Important Notes & Action Items
 
-> [!NOTE]  
-> **Strategic Difference:** The main difference between Option 2 and Option 3 is risk mitigation. In Option 3, since Env 1's current skins are actively in use, we propose creating *new* skins on Env 1 that won't be used immediately. This means less impact if a revert is necessary. **Note:** This approach is currently *not approved* by Evo and is just a proposal.
-
-> [!IMPORTANT]  
 > **DB Scripts:** The Game config map changes will be written via database scripts to manage the different mappings and values. We will need to run these DB scripts to properly update the game config map.
 
-> [!IMPORTANT]  
 > **Testing Requirement:** We must test the games in **"Main Stage Bingo"** to verify that everything works correctly with the new game config map across all 4 setups.
 
-> [!TIP]  
 > **Feedback Requested:** Please feel free to add any other ideas or suggestions that can improve the Operations rollout process.
+
+> **New Game Release** Need to plan the New Game release when there is changes on stage with syncing with Live.

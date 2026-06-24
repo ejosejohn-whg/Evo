@@ -96,8 +96,8 @@ We have three proposed ways to execute this implementation. Please review and pr
   1: We need to define the Stage testing Stratagy. **To be defined by product and Operations**<br>
   2: Configure the Game on Stage. **To be defined by product and Operations** <br>
   3: Test the Games on Stage. **To be defined by product and Operations** <br><br>
-
-F: Continue moving sites one by one to production, applying changes to games and supplier configurations. <br>
+  
+**F** Continue moving sites one by one to production, applying changes to games and supplier configurations. <br>
   1: Now that we have all sites live on the Low Site reconfigure "Main Stage Bingo" to High Stakes of UK and MGA <br>
   2: Execute the script on Stage and Live. **Sprit stratagy to be defined by Game Service and Operations** <br>
   3: Test the games on Live. **Testing Stratagy to be defined by QA and Operations** <br>
@@ -113,6 +113,7 @@ F: Continue moving sites one by one to production, applying changes to games and
     4: If we have unfinised games they have to be made cancelled or settled. <br>
     5: All started and not completed free spins will not work as this will have gone to old Env and skin which will notbe in use after we move over. <br>
     6: We now have All the sites on were we need, we can clean up the game config on UK and MGA have one game code per game for entire 4 combinations we have.<br>
+
 ---
 
 ### Option 2: Big Bang Rollout

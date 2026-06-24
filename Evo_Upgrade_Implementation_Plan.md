@@ -69,7 +69,7 @@ We have three proposed ways to execute this implementation. Please review and pr
   2: Configure the Game on Stage. **To be defined by product and Operations** <br>
   3: Test the Games on Stage. **To be defined by product and Operations**<br><br>
   
-4. **C:** Move sites one by one to production, making necessary changes on games and supplier configuration. <br>
+**C:** Move sites one by one to production, making necessary changes on games and supplier configuration. <br>
   1: Prepare the script for all the games for "main stage Bingo" as Live games we will not have all games on stage. <br>
   2: Execute the script on Stage and Live. **Sprit stratagy to be defined by Game Service and Operations** <br>
   3: Test the games on Live. **Testing Stratagy to be defined by QA and Operations** <br>
@@ -86,18 +86,18 @@ We have three proposed ways to execute this implementation. Please review and pr
     5: All started and not completed free spins will not work as this will have gone to old Env and skin which will notbe in use after we move over. <br>
     6: We can move to have Game config to Low table for all the sites and remove the script site specific script. Or we can wait for High setups to finish and have singe game entry for all the UK and MGA sites. <br><br>
     
-5. **D:** Ensure we have **MGA - High** ready and available from the Evo side.<br>
+**D:** Ensure we have **MGA - High** ready and available from the Evo side.<br>
   1: Get Evo environment for Stage: **Evo Provided.** <br>
   2: Configured the EVO2 Setup on Stage: **Juan Configured.** <br>
   3: Evo to test the Setup and Approve the Integragaion. **Evoluton Passed the tests.** <br>
   4: Evo to configure the Production Setup. **Awaiting on Evo** <br><br>
-   
-7. **E:** Test and verify that Env 1 (UK - High & MGA High) Main Stage Bingo. <br>
+  
+**E:** Test and verify that Env 1 (UK - High & MGA High) Main Stage Bingo. <br>
   1: We need to define the Stage testing Stratagy. **To be defined by product and Operations**<br>
   2: Configure the Game on Stage. **To be defined by product and Operations** <br>
   3: Test the Games on Stage. **To be defined by product and Operations** <br><br>
-   
-9. **F:** Continue moving sites one by one to production, applying changes to games and supplier configurations. <br>
+
+F: Continue moving sites one by one to production, applying changes to games and supplier configurations. <br>
   1: Now that we have all sites live on the Low Site reconfigure "Main Stage Bingo" to High Stakes of UK and MGA <br>
   2: Execute the script on Stage and Live. **Sprit stratagy to be defined by Game Service and Operations** <br>
   3: Test the games on Live. **Testing Stratagy to be defined by QA and Operations** <br>

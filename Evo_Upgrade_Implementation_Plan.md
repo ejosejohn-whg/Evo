@@ -50,7 +50,8 @@ We will shift to a 4-Environment setup based on Jurisdiction and Risk:
 3. **UK - Low** *(New Environment)*
 4. **MGA - Low** *(New Environment)*
 
-**Clients    Status	Business	UK-LOW MGA-LOW	UK-HIGH	MGA-HIGH** <br>
+|Clients  |  Status	| Business	| UK-LOW | MGA-LOW	| UK-HIGH	| MGA-HIGH | <br>
+|:--      |:--:     |:--:       |:--:    |:--:      |:--:     |--:       | <br>
 Battlecat  High	  Unit I    NA     NA	      1000    10001        <br>
 Casimba	   High	  Unit II   NA     NA       1100    11001        <br>
 Branders   Low	  Unit III	79     791      NA      NA           <br>

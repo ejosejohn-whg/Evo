@@ -119,19 +119,20 @@ We have three proposed ways to execute this implementation. Please review and pr
 ### Option 2: Big Bang Rollout
 *Prepare all environments and execute the configuration move on a single agreed-upon date.*
 
-**A:** Ensure we have **UK - Low** and **MGA - Low** ready and available from the Evo side.
-**B:** Test the games on **"Main Stage Bingo"**.
-**C:** Ensure we have **UK - High** and **MGA - High** ready and available from the Evo side.
-**D:** Test the games again on **"Main Stage Bingo"**.
-**E:** Agree on a rollout date and move all configurations in a single day rather than doing it one by one.
-**General Notes:**
-    1: With this we will have all the Low sites of Completed.
-    2: We will have game levels / Stage starting from new.
-    3: We need to map the Jackpot respectively. (As the are using form Env01 whcih is existing there should not be any issue, if not changed)
-    4: If we have unfinised games they have to be made cancelled or settled.
-    5: All started and not completed free spins will not work as this will have gone to old Env and skin which will notbe in use after we move over.
-    6: We now have All the sites on were we need, we can clean up the game config on UK and MGA have one game code per game for entire 4 combinations we have.
----
+**A** Ensure we have **UK - Low** and **MGA - Low** ready and available from the Evo side.
+**B**Test the games on **"Main Stage Bingo
+**C** Ensure we have **UK - High** and **MGA - High** ready and available from the Evo side
+**D** Test the games again on **"Main Stage Bingo
+**E** Agree on a rollout date and move all configurations in a single day rather than doing it one by one.
+ **General Notes:** <br>
+    1: With this we will have all the Low sites of Completed. <br>
+    2: We will have game levels / Stage starting from new. <br>
+    3: We need to map the Jackpot respectively. (As the are using form Env01 whcih is existing there should not be any issue, if not changed) <br>
+    4: If we have unfinised games they have to be made cancelled or settled. <br>
+    5: All started and not completed free spins will not work as this will have gone to old Env and skin which will notbe in use after we move over. <br>
+    6: We now have All the sites on were we need, we can clean up the game config on UK and MGA have one game code per game for entire 4 combinations we have.<br>
+
+  ---
 
 ## 📝 Important Notes & Action Items
 

@@ -54,10 +54,10 @@ We will shift to a 4-Environment setup based on Jurisdiction and Risk:
 |:--      |:--:     |:--:       |:--:    |:--:      |:--:     |--:       |
 |Battlecat | High	 | Unit I  |  NA  |   NA	 |     1000  |  10001   |
 |Casimba	 | High	 | Unit II |  NA  |   NA   |     1100  |  11001   |
-Branders   Low	  Unit III	79     791      NA      NA           <br>
-Christ     High	  Unit IV   NA     NA       1200    12001        <br>
-Forvana    Low	  Unit V    147    1471	    NA      NA           <br>
-Silver     High	  Unit VI	  NA     NA       1300    13001        <br>
+|Branders  | Low	 | Unit III|	79  |   791  |    NA     | NA       |
+|Christ    | High	 | Unit IV |  NA  |   NA   |    1200   | 12001    |
+|Forvana   | Low	 | Unit V  |  147 |   1471 |	   NA    |  NA      |     <br>
+|Silver    | High	 | Unit VI | NA   |  NA    |   1300    | 13001    |    <br>
 Vita       Low	  Unit VII	86     861	    NA      NA           <br>
 Superfly   High	  Unit VIII	NA     NA       1400    14001        <br>
 Yellow Day Low	  Unit IX   106    1061	    NA      NA           <br>

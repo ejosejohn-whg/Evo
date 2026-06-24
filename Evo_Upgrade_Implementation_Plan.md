@@ -50,6 +50,19 @@ We will shift to a 4-Environment setup based on Jurisdiction and Risk:
 3. **UK - Low** *(New Environment)*
 4. **MGA - Low** *(New Environment)*
 
+**Clients    Status	Business	UK-LOW MGA-LOW	UK-HIGH	MGA-HIGH**
+Battlecat  High	  Unit I    NA     NA	      1000    10001
+Casimba	   High	  Unit II   NA     NA       1100    11001
+Branders   Low	  Unit III	79     791      NA      NA
+Christ     High	  Unit IV   NA     NA       1200    12001
+Forvana    Low	  Unit V    147    1471	    NA      NA
+Silver     High	  Unit VI	  NA     NA       1300    13001
+Vita       Low	  Unit VII	86     861	    NA      NA
+Superfly   High	  Unit VIII	NA     NA       1400    14001
+Yellow Day Low	  Unit IX   106    1061	    NA      NA
+MrREX	     High	  Unit X    NA     NA       1500    15001
+**Note: The Skin numbers are for ilustration pourpose.**
+
 ---
 
 ## ⚙️ Operations: Execution & Rollout Options

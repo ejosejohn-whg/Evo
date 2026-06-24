@@ -50,10 +50,10 @@ We will shift to a 4-Environment setup based on Jurisdiction and Risk:
 3. **UK - Low** *(New Environment)*
 4. **MGA - Low** *(New Environment)*
 
-|Clients  |  Status	| Business	| UK-LOW | MGA-LOW	| UK-HIGH	| MGA-HIGH | <br>
-|:--      |:--:     |:--:       |:--:    |:--:      |:--:     |--:       | <br>
-Battlecat  High	  Unit I    NA     NA	      1000    10001        <br>
-Casimba	   High	  Unit II   NA     NA       1100    11001        <br>
+|Clients  |  Status	| Business	| UK-LOW | MGA-LOW	| UK-HIGH	| MGA-HIGH |
+|:--      |:--:     |:--:       |:--:    |:--:      |:--:     |--:       |
+|Battlecat | High	 | Unit I  |  NA  |   NA	 |     1000  |  10001   |
+|Casimba	 | High	 | Unit II |  NA  |   NA   |     1100  |  11001   |
 Branders   Low	  Unit III	79     791      NA      NA           <br>
 Christ     High	  Unit IV   NA     NA       1200    12001        <br>
 Forvana    Low	  Unit V    147    1471	    NA      NA           <br>

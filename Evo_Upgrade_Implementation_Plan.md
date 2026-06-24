@@ -58,10 +58,10 @@ We will shift to a 4-Environment setup based on Jurisdiction and Risk:
 |Christ    | High	 | Unit IV |  NA  |   NA   |    1200   | 12001    |
 |Forvana   | Low	 | Unit V  |  147 |   1471 |	   NA    |  NA      |     <br>
 |Silver    | High	 | Unit VI | NA   |  NA    |   1300    | 13001    |    <br>
-Vita       Low	  Unit VII	86     861	    NA      NA           <br>
-Superfly   High	  Unit VIII	NA     NA       1400    14001        <br>
-Yellow Day Low	  Unit IX   106    1061	    NA      NA           <br>
-MrREX	     High	  Unit X    NA     NA       1500    15001        <br>
+|Vita      | Low	 | Unit VII|	86  |   861	 |   NA      |NA        |   <br>
+|Superfly  | High	 | Unit VIII|	NA  |   NA   |    1400   | 14001    |    <br>
+|Yellow Day| Low	 | Unit IX |  106 |   1061 |	    NA   |   NA     |      <br>
+|MrREX	   |  High | Unit X  |  NA  |   NA   |    1500   | 15001    |    <br>
 **Note: The Skin numbers are for ilustration pourpose.**
 
 ---

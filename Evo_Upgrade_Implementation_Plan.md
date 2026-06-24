@@ -120,12 +120,13 @@ We have three proposed ways to execute this implementation. Please review and pr
 *Prepare all environments and execute the configuration move on a single agreed-upon date.*
 
 **A** Ensure we have **UK - Low** and **MGA - Low** ready and available from the Evo side.
-**B**Test the games on **"Main Stage Bingo
+**B**Test the games on **"Main Stage Bingo Stage and Production, we will need scripts for Stage and Live.
 **C** Ensure we have **UK - High** and **MGA - High** ready and available from the Evo side
-**D** Test the games again on **"Main Stage Bingo
+**D** Test the games again on **"Main Stage Bingo Stage and Production, we will need scripts for Stage and Live.
 **E** Agree on a rollout date and move all configurations in a single day rather than doing it one by one.
  **General Notes:** <br>
-    1: With this we will have all the Low sites of Completed. <br>
+    1: Testing Stratagy, Spript Stratagy and Operational stratagy needs to be added as int the increment model, just that we do big bang in this one with the confidence we get this "Main Stage Bingo Stage and production"
+    2: With this we will have all the Low sites of Completed. <br>
     2: We will have game levels / Stage starting from new. <br>
     3: We need to map the Jackpot respectively. (As the are using form Env01 whcih is existing there should not be any issue, if not changed) <br>
     4: If we have unfinised games they have to be made cancelled or settled. <br>
